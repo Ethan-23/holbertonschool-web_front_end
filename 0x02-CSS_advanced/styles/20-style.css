@@ -189,9 +189,9 @@ body {
 }
 
 .row::after {
-    content: none;
+    content: '';
     display: table;
-    float: none;
+    clear: both;
 }
 
 .navbar-menu {
