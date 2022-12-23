@@ -191,7 +191,7 @@ body {
 .row::after {
     content: none;
     display: table;
-    clear: both;
+    float: none;
 }
 
 .navbar-menu {
