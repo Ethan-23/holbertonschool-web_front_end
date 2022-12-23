@@ -157,8 +157,8 @@ template {
     --section-title-color: var(--color-black);
 }
 
-* {
-    box-sizing: unset;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
 html {
