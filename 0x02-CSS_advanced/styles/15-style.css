@@ -158,7 +158,7 @@ template {
 }
 
 * {
-    box-sizing: inherit;
+    box-sizing: unset;
 }
 
 html {
