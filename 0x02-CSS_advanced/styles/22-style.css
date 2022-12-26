@@ -3,7 +3,6 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
-
 body {
     margin: 0;
 }
@@ -189,12 +188,6 @@ body {
     line-height: var(--line-height-base);
 }
 
-[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-}
-
 .row::after {
     content: '';
     display: table;
@@ -328,6 +321,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
+}
+
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
 }
 
 .footer ul {
