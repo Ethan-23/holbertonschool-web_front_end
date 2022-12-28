@@ -180,6 +180,13 @@ template {
     --button-hover-background: var(--color-primary);
 }
 
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+    --button-color: var(--color-white);
+}
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -342,13 +349,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-link > svg{
     fill: var(--text-color);
-}
-
-[data-section-theme="dark"] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-    --button-color: var(--color-white);
 }
 
 .footer ul {
