@@ -456,7 +456,7 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 
-.card-work .card-image{
+.card-work .card-image img{
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 45%;
 }
 
-.card-work .card-title::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     left: 0;
