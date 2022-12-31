@@ -1,0 +1,12 @@
+/* Debug */
+@import '103-sort_list.scss ';
+$default-order: "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z";
+$new-order: [];
+@each $letter in $default-order{
+    @each $name in $list_to_sort{
+        @if str-slice($name, 1, 1) == $letter{
+            $new-order: append($new-order, $name);
+        }
+    }
+}
+@debug $new-order;
