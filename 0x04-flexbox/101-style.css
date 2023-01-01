@@ -1,0 +1,60 @@
+html {
+    height: 100vh;
+  }
+  
+body {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+  
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    height: 90%;
+    width: 100%;
+}
+
+.box {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1, .box5 {
+    font-size: 2rem;
+    width: 7%;
+    height: 18%;
+}
+
+.box2, .box4 {
+    font-size: 5rem;
+    width: 14%;
+    height: 36%;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: yellow;
+    font-size: 9rem;
+    width: 21%;
+    height: 54%;
+}
+
+.box4 {
+    background-color: purple;
+}
+
+.box5 {
+    background-color: orange;
+}
